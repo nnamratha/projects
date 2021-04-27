@@ -4,9 +4,7 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/nnamratha/Embedded_proj/actions/workflows/compile.yml/badge.svg)](https://github.com/nnamratha/Embedded_proj/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/nnamratha/Embedded_proj/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/nnamratha/Embedded_proj/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/643b7ca2b2dc4daba1e700c216bb87d9)](https://www.codacy.com/gh/Bharathgopal/Emb-C/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bharathgopal/Emb-C&amp;utm_campaign=Badge_Grade)|
-
-
+|[![Compile-Linux](https://github.com/nnamratha/Embedded_proj/actions/workflows/compile.yml/badge.svg)](https://github.com/nnamratha/Embedded_proj/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/nnamratha/Embedded_proj/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/nnamratha/Embedded_proj/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/660d3d52b29343f8ae62fa1b58a25367)](https://www.codacy.com/gh/nnamratha/Embedded_proj/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nnamratha/Embedded_proj&amp;utm_campaign=Badge_Grade)|
 # LED Blinking 
 
 ## In Action
