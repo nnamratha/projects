@@ -70,7 +70,7 @@ doc:
 
 clean:
 	# Remove all the build files and generated document files
-	$(RM) -rf $(call FixPath,$(BUILD_DIR)/*)
+	$(RM) -rf build $(call FixPath,$(BUILD_DIR)/*)
 	make -C documentation clean
 	rmdir $(BUILD_DIR)
 	
