@@ -1,5 +1,5 @@
 /**
- * @file blinky.h
+ * @file act1.h
  * @author Namratha (you@domain.com)
  * @brief 
  * @version 0.1
@@ -9,38 +9,47 @@
  * 
  */
 
-#include "blinky.h"
+#include "act1.h"
+#include "act2.h"
 
-int main(void)
-{
-DDRB|=(1<<PB0);   //SETTING PB0=1 for led
-DDRD&=~(1<<PD0);  // forcefully making it 0
-PORTD|=(1<<PD0);  // setting the bit
-DDRD&=~(1<<PD4);  // forcefully making it 0
-PORTD|=(1<<PD4);  // setting the bit
 
-    while(1){
-            if(!(PIND&(1<<PD0))) // pressing switch
+
+int main(void){
+    InitADC();
+    ports_initial();
+    uint16_t temp;
+    while(1)
+    //if switch 1 is ON
+    if(!(PIND&(1<<PD0)))
+        {
+            //if switch 2 is ON
+            if(!(PIND&(1<<PD4)))
             {
-                if(!(PIND&(1<<PD4))){
-                        PORTB|=(1<<PB0);
-
-                }
-
-                else{
-                        PORTB&=~(1<<PB0);
-
-                }
-
+                PORTB|=(1<<PB0);  // LED ON
+                temp=ReadADC(0);
             }
-            else{
-                    PORTB&=~(1<<PB0);
-
-            }
-
-    }
-
+        }
+        else
+        {
+            PORTB&=~(1<<PB0);   // LED OFF
+        }
 
     return 0;
+}
+
+/*
+Initializing the ports
+*/
+
+void ports_initial(void)
+{
+    /*Configure LED and Switch pins*/
+    DDRB|=(1<<PB0);
+    DDRD&=~(1<<PD0);
+    PORTD|=(1<<PD0);
+    DDRD&=~(1<<PD4);
+    PORTD|=(1<<PD4);
+    InitADC();
+
 }
 

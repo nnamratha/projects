@@ -3,10 +3,9 @@ PROJ_NAME = Blinky
 BUILD_DIR = Build
 
 # All Source code files
-# SRC = project_main.c\
-# src/user_utils.c
-MAIN=project_main.c
-SRC = $(wildcard src/* .c) $(MAIN)
+SRC = src/act2.c\
+project_main.c
+
 
 #Object copy to create hexfile
 OBJCOPY = avr-objcopy.exe
