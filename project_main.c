@@ -25,13 +25,13 @@ int main(void){
             //if switch 2 is ON
             if(!(PIND&(1<<PD4)))
             {
-                PORTB|=(1<<PB0);  // LED ON
+                PORTD|=(1<<PD6);  // LED ON
                 temp=ReadADC(0);
             }
         }
         else
         {
-            PORTB&=~(1<<PB0);   // LED OFF
+            PORTD&=~(1<<PD6);   // LED OFF
         }
 
     return 0;
@@ -44,7 +44,7 @@ Initializing the ports
 void ports_initial(void)
 {
     /*Configure LED and Switch pins*/
-    DDRB|=(1<<PB0);
+    DDRD|=(1<<PD6);
     DDRD&=~(1<<PD0);
     PORTD|=(1<<PD0);
     DDRD&=~(1<<PD4);
