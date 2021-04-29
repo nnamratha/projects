@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include<act1.h>
-#include <util/delay.h>
+#include<avr/io.h>
+#include<act3.h>
 
 /**
  * @brief A function which receives 10 bit of ADC input from temperature sensor and outputs as a fast PWM waveform.

@@ -9,7 +9,8 @@
  * 
  */
 
-#include<act1.h>
+#include<avr/io.h>
+#include<act2.h>
 /**
  * @brief A function to initialise the analog to digital converter
  * 
