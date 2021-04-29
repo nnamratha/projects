@@ -10,6 +10,8 @@
 ## SIMULATION
 
 ## OFF
-![off](https://user-images.githubusercontent.com/80394921/116529350-7e593d00-a8fa-11eb-8132-4493114fe230.PNG)
+<img src="(https://user-images.githubusercontent.com/80394921/116529350-7e593d00-a8fa-11eb-8132-4493114fe230.PNG" width="100" height="100">
 ## ON
-![ON](https://user-images.githubusercontent.com/80394921/116529470-a052bf80-a8fa-11eb-805e-ca8f3e2e4e92.PNG)
+<img src="(https://user-images.githubusercontent.com/80394921/116529470-a052bf80-a8fa-11eb-805e-ca8f3e2e4e92.PNG" width="100" height="100">
+
+
