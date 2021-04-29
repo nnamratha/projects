@@ -1,4 +1,4 @@
-DOXY_FILE = Blinky
+DOXY_FILE = HeatControl
 doc:
 	doxygen ./$(DOXY_FILE)
 

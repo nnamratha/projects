@@ -1,10 +1,12 @@
-PROJ_NAME = Blinky
+PROJ_NAME = HeatControl
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = src/act2.c\
-project_main.c
+src/act3.c\
+src/act4.c\
+HeatControlMain.c
 
 
 #Object copy to create hexfile
