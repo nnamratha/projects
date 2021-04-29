@@ -1,7 +1,8 @@
-# Blinky Project In Action
+#  Project In Action
 
-|ON|OFF|
-|:--:|:--:|
-|![ON](https://user-images.githubusercontent.com/80394921/115848762-d9de8300-a441-11eb-824f-10100c25c126.PNG)|![OFF](https://user-images.githubusercontent.com/80394921/115848683-bfa4a500-a441-11eb-9fe2-1ce00c408b88.PNG)|
+# Off
+![off](https://user-images.githubusercontent.com/80394921/116531076-6b476c80-a8fc-11eb-9974-3fa3d62a3c61.PNG)
 
+# On
+![on](https://user-images.githubusercontent.com/80394921/116531143-7b5f4c00-a8fc-11eb-8e8f-38673a1adef7.PNG)
 
